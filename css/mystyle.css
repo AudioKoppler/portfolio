@@ -13,7 +13,7 @@ p {
 }
 button {
     background-color: gray;
-    
+
 }
 .navbar {
     text-align: center;
@@ -24,7 +24,7 @@ button {
     border-radius: 100px 100px 100px 100px;
     width: fit-content;
     margin: 0 auto;
-    background: url("/images/km_logo.png") no-repeat;
+    background: url("/../images/km_logo.png") no-repeat;
 
 } 
 .top {
