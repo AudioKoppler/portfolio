@@ -1,6 +1,7 @@
 body{
     background-color: whitesmoke;
     font-family: 'Encode Sans', sans-serif;
+    margin: 0;
 }
 h1 {
     font-size: 2.5rem;
@@ -11,20 +12,28 @@ p {
     line-height: 5px;
     color: gray;
 }
-button {
+/* backup 
+ul {
     background-color: gray;
-    
+    font-size: 1.7rem;
+    text-align: left;
+    padding: 10px;
+
 }
-.navbar {
+.topnav {
     text-align: center;
 }
-
+*/
 .logo {
     border: solid;
     border-radius: 100px 100px 100px 100px;
     width: fit-content;
     margin: 0 auto;
-    background: url("/images/km_logo.png") no-repeat;
+   
+    background-image: url('../images/km_logo.png');
+    background-repeat: no-repeat;
+    background-position: center; 
+    position: relative;
 
 } 
 .top {
@@ -33,3 +42,32 @@ button {
 #profile-pic {
     opacity: .0;
 }
+/* NAVIGATION TEST */
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:  rgb(121, 121, 121);
+  }
+  
+  ul.topnav li {float: left;}
+  
+  ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  ul.topnav li a:hover:not(.active) {background-color:  rgb(51, 51, 51);}
+  
+  ul.topnav li a.active {background-color: rgb(121, 121, 121);}
+  
+  ul.topnav li.right {float: right;}
+  
+  @media screen and (max-width: 600px) {
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
+  }
