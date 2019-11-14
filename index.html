@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Encode+Sans&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -13,20 +14,65 @@
 
 <body>
     <div class="logo">
-        <img id="profile-pic" src="images/km_logo.png" alt="Logo">
+        <img id="hidden-pic" src="images/km_logo.png" alt="Logo">
     </div>
 
     <div class="top">
         <h1>Kristof Meyer</h1>
-        <p>Web Developer</p>
+        <p class="subline">Web Developer</p>
     </div>
 
     <ul class="topnav">
-        <li><a class="#active" href="#home">Lebenslauf</a></li>
-        <li><a href="#news">Portfolio</a></li>
-        <li><a href="#contact">Skills</a></li>
-        <li class="right"><a href="#about">Contact</a></li>
+        <li><a class="#active" href="#cv">Lebenslauf</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#skill">Skills</a></li>
+        <li class="right"><a href="#contact">Contact</a></li>
     </ul>
+
+    <div class="cv" id="cv">
+        <h2>Lebenslauf</h2>
+    </div>
+
+    <div class="portfolio" id="portfolio">
+        <h2>Portfolio</h2>
+    </div>
+
+    <div class="skill" id="skill">
+        <h2>Skills</h2>
+
+        <p>HTML</p>
+        <div class="container">
+            <div class="skills html">90%</div>
+        </div>
+
+        <p>CSS</p>
+        <div class="container">
+            <div class="skills css">80%</div>
+        </div>
+
+        <p>JavaScript</p>
+        <div class="container">
+            <div class="skills js">45%</div>
+        </div>
+
+        <p>PHP</p>
+        <div class="container">
+            <div class="skills php">70%</div>
+        </div>
+        <p>Adobe (PS/ AE)</p>
+        <div class="container">
+            <div class="skills ps">50%</div>
+        </div>
+    </div>
+    <div class="contact">
+        <h2>Meine Kontaktdaten</h2>
+        <ul> <a href="tel:+4915907683880" id="contact" class="fa fa-phone"></a> +49 1590 7683880</ul>
+        <ul> <a href="mailto:k.meyer.duisburg@gmail.com" class="fa fa-envelope"></a> k.meyer.duisburg@gmail.com</ul>
+        <ul> <a href="https://www.xing.com/profile/Kristof_Meyer4/cv" target="_blank" class="fa fa-xing"></a> Xing
+            Account</ul>
+        <ul> <a href="https://github.com/AudioKoppler" target="_blank" class="fa fa-github"></a> @AudioKoppler</ul>
+        <ul><a href="#" class="fa fa-facebook"></a> facebook.com/mad-multimedia</ul>
+    </div>
 </body>
 
 </html>
