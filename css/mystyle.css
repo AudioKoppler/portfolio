@@ -15,7 +15,8 @@ h2 {
     color: rgb(121, 121, 121);
     text-align: center;
     border-bottom: 1px solid rgb(121, 121, 121);
-    padding-bottom: 30px;
+    padding-bottom: 10%;
+    padding-top: 10%;
 
 }
 p.subline {
@@ -50,12 +51,14 @@ a {
 } 
 .top {
     text-align: center;
+    padding-bottom: 10%;
 }
 #hidden-pic {
     opacity: .0;
 }
 .cv, .portfolio, .skill, .contact {
     height: 600px;
+    padding-bottom: 10%;
   /*  border-bottom: 1px solid rgb(121, 121, 121); */
 }
 
