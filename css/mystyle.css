@@ -15,7 +15,7 @@ h2 {
     color: rgb(121, 121, 121);
     text-align: center;
     border-bottom: 1px solid rgb(121, 121, 121);
-    padding-bottom: 10%;
+    padding-bottom: 8%;
     padding-top: 10%;
 
 }
@@ -57,11 +57,19 @@ a {
     opacity: .0;
 }
 .cv, .portfolio, .skill, .contact {
-    height: 600px;
-    padding-bottom: 10%;
+    height: fit-content;
+    padding-bottom: 15%;
   /*  border-bottom: 1px solid rgb(121, 121, 121); */
 }
-
+ul.cv-text {
+  font-size: 1.4rem;
+}
+footer {
+  text-align: center;
+  font-size: 1.4rem;
+  background-color: #55ACEE;
+  padding: 10px;
+}
 /* Style all font awesome icons */
 .fa {
     padding: 20px;
@@ -173,4 +181,4 @@ ul.topnav {
 .css {width: 80%; background-color: #2196F3; border-radius: 15px 15px 15px 15px;} /* Blue */
 .js {width: 45%; background-color: #f44336; border-radius: 15px 15px 15px 15px;} /* Red */
 .php {width: 70%; background-color: #808080;border-radius: 15px 15px 15px 15px;} /* Dark Grey */
-.ps {width: 50%; background-color: #706e03;border-radius: 15px 15px 15px 15px;} /* Dark Grey */
+.ps {width: 95%; background-color: #706e03;border-radius: 15px 15px 15px 15px;} /* Dark Grey */
